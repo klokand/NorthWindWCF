@@ -1,0 +1,4 @@
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindBDO\bin\Debug\LayerNorthwindBDO.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindBDO\bin\Debug\LayerNorthwindBDO.pdb
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindBDO\obj\Debug\LayerNorthwindBDO.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindBDO\obj\Debug\LayerNorthwindBDO.pdb

@@ -1,0 +1,7 @@
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\bin\Debug\LayerNorthwindDAL.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\bin\Debug\LayerNorthwindDAL.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\bin\Debug\LayerNorthwindBDO.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\bin\Debug\LayerNorthwindBDO.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\obj\Debug\LayerNorthwindDAL.csprojResolveAssemblyReference.cache
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\obj\Debug\LayerNorthwindDAL.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindDAL\obj\Debug\LayerNorthwindDAL.pdb

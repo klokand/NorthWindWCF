@@ -1,0 +1,8 @@
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\bin\Debug\emailTestCMD.exe.config
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\bin\Debug\emailTestCMD.exe
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\bin\Debug\emailTestCMD.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\bin\Debug\emailVlidation.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\bin\Debug\emailVlidation.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\obj\Debug\emailTestCMD.csprojResolveAssemblyReference.cache
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\obj\Debug\emailTestCMD.exe
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailTestCMD\obj\Debug\emailTestCMD.pdb

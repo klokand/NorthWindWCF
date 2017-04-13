@@ -1,0 +1,12 @@
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindService.dll.config
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindService.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindService.pdb
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\obj\Debug\LayerNorthwindService.csprojResolveAssemblyReference.cache
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\obj\Debug\LayerNorthwindService.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\obj\Debug\LayerNorthwindService.pdb
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindBDO.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindLogic.dll
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindBDO.pdb
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindLogic.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindDAL.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindService\bin\Debug\LayerNorthwindDAL.pdb

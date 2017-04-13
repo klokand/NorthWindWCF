@@ -1,0 +1,5 @@
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\bin\Debug\LayerNorthwindClient.exe.config
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\bin\Debug\LayerNorthwindClient.exe
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\bin\Debug\LayerNorthwindClient.pdb
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\obj\Debug\LayerNorthwindClient.exe
+c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\obj\Debug\LayerNorthwindClient.pdb

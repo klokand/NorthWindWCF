@@ -1,0 +1,4 @@
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailVlidation\bin\Debug\emailVlidation.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailVlidation\bin\Debug\emailVlidation.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailVlidation\obj\Debug\emailVlidation.dll
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\emailVlidation\obj\Debug\emailVlidation.pdb
