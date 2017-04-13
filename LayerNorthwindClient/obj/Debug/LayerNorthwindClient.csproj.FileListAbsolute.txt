@@ -3,3 +3,4 @@ c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNo
 c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\bin\Debug\LayerNorthwindClient.pdb
 c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\obj\Debug\LayerNorthwindClient.exe
 c:\users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\obj\Debug\LayerNorthwindClient.pdb
+C:\Users\mxi\documents\visual studio 2013\Projects\LayerNorthwindService\LayerNorthwindClient\obj\Debug\LayerNorthwindClient.csprojResolveAssemblyReference.cache

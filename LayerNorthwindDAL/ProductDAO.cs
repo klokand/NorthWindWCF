@@ -16,9 +16,7 @@ namespace LayerNorthwindDAL
         MySql.Data.MySqlClient.MySqlConnection conn;
 
         public ProductBDO GetProduct(int id)
-        {
-
-            
+        {   
             // TODO: connect to DB to retrieve product
             ProductBDO p = null;
 
@@ -98,7 +96,27 @@ namespace LayerNorthwindDAL
         {
             // TODO: connect to DB to update product
             message = "product updated successfully";
-            return true;
+            var ret = true;
+            using (conn = new MySql.Data.MySqlClient.MySqlConnection(connectionString))
+            {
+                var cmdStr = @"UPDATE products SET ProductName=@name, QuantityPerUnit=@unit, UnitPrice=@price, Discontinued=@discontinued WHERE ProductID=@id";
+                using (MySqlCommand cmd = new MySqlCommand(cmdStr, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name",product.ProductName);
+                    cmd.Parameters.AddWithValue("@unit",product.QuantityPerUnit);
+                    cmd.Parameters.AddWithValue("@price",product.UnitPrice);
+                    cmd.Parameters.AddWithValue("@discontinued",product.Discontinued);
+                    cmd.Parameters.AddWithValue("@id",product.ProductID);
+                    conn.Open();
+                    if (cmd.ExecuteNonQuery() != 1)
+                    {
+                        message = "no product was updated";
+                        ret = false;
+                    }
+                }
+            }
+
+            return ret;
         }
     }
 }

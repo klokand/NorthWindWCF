@@ -12,9 +12,11 @@ namespace LayerNorthwindService
     public interface IProductService
     {
         [OperationContract]
+        [FaultContract(typeof(ProductFault))]
         Product GetProduct(int id);
 
         [OperationContract]
+        [FaultContract(typeof(ProductFault))]
         bool UpdateProduct(Product product, ref string message);
 
         // TODO: Add your service operations here
@@ -35,5 +37,17 @@ namespace LayerNorthwindService
         public decimal UnitPrice { get; set; }
         [DataMember]
         public bool Discontinued { get; set; }
+    }
+
+    //Adding Exception handling classes.
+    [DataContract]
+    public class ProductFault
+    {
+        public ProductFault(string msg)
+        {
+            FaultMessage = msg;
+        }
+        [DataMember]
+        public string FaultMessage;
     }
 }

@@ -32,11 +32,30 @@ namespace LayerNorthwindService
         public Product GetProduct(int id)
         {
             var productLogic = new ProductLogic();
-            var productBDO = productLogic.GetProduct(id);
-            var product = new Product();
-            if (productBDO != null) {
-                TranslateProductBDOToProductDTO(productBDO, product);
+            ProductBDO productBDO = null;
+            try {
+                productBDO = productLogic.GetProduct(id);
             }
+            catch(Exception e){
+                var msg = e.Message;
+                var reason = "GetProduct Exception";
+                throw new FaultException<ProductFault>(new ProductFault(msg), reason);
+            }
+            if (productBDO == null)
+            {
+                var msg = string.Format("No product found for id {0}",id);
+                var reason = "GetProduct Empty Product";
+                if (id == 999)
+                {
+                    throw new Exception(msg);
+                }
+                else
+                {
+                    throw new FaultException<ProductFault>(new ProductFault(msg), reason);
+                }
+            }
+            var product = new Product();
+            TranslateProductBDOToProductDTO(productBDO, product);
             return product;
         }
 
@@ -60,7 +79,14 @@ namespace LayerNorthwindService
                 var productLogic = new ProductLogic();
                 var productBDO = new ProductBDO();
                 TranslateProductDTOToProductBDO(product,productBDO);
-                return productLogic.UpdateProduct(productBDO, ref message);
+                try{
+                    result = productLogic.UpdateProduct(productBDO, ref message);
+                }catch (Exception e) {
+                    var msg = e.Message;
+                    var reason = "UpdateProduct Exception";
+                    throw new FaultException<ProductFault>
+                    (new ProductFault(msg), reason);
+                }
             }
             return result;
         }

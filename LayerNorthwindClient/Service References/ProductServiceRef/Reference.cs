@@ -122,17 +122,64 @@ namespace LayerNorthwindClient.ProductServiceRef {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ProductFault", Namespace="http://schemas.datacontract.org/2004/07/LayerNorthwindService")]
+    [System.SerializableAttribute()]
+    public partial class ProductFault : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string FaultMessageField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string FaultMessage {
+            get {
+                return this.FaultMessageField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.FaultMessageField, value) != true)) {
+                    this.FaultMessageField = value;
+                    this.RaisePropertyChanged("FaultMessage");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ProductServiceRef.IProductService")]
     public interface IProductService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductService/GetProduct", ReplyAction="http://tempuri.org/IProductService/GetProductResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(LayerNorthwindClient.ProductServiceRef.ProductFault), Action="http://tempuri.org/IProductService/GetProductProductFaultFault", Name="ProductFault", Namespace="http://schemas.datacontract.org/2004/07/LayerNorthwindService")]
         LayerNorthwindClient.ProductServiceRef.Product GetProduct(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductService/GetProduct", ReplyAction="http://tempuri.org/IProductService/GetProductResponse")]
         System.Threading.Tasks.Task<LayerNorthwindClient.ProductServiceRef.Product> GetProductAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IProductService/UpdateProduct", ReplyAction="http://tempuri.org/IProductService/UpdateProductResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(LayerNorthwindClient.ProductServiceRef.ProductFault), Action="http://tempuri.org/IProductService/UpdateProductProductFaultFault", Name="ProductFault", Namespace="http://schemas.datacontract.org/2004/07/LayerNorthwindService")]
         LayerNorthwindClient.ProductServiceRef.UpdateProductResponse UpdateProduct(LayerNorthwindClient.ProductServiceRef.UpdateProductRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.

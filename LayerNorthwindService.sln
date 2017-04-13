@@ -42,6 +42,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite3-string", "http://l
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{43E51820-893F-4F50-A51F-59F24DA03299}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Northwind.MySQL5 (1).sql = ..\..\..\..\Downloads\Northwind.MySQL5 (1).sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
